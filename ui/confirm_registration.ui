@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>910</width>
+    <height>607</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="ctuBG">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>910</width>
+     <height>610</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/1/image/ctu-bg.jpg);
+background-blend-mode: overlay;
+background-color: rgba(218, 212, 181, 0.4);
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="seethroughBlackBG">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>30</y>
+     <width>831</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255, 200);
+border-radius: 15px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idnumInput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>200</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string>1334856</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>ID Number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fnameInput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>260</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>John</string>
+   </property>
+   <property name="cursorPosition">
+    <number>4</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ctuBG_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>910</width>
+     <height>610</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(218, 212, 181,130);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="regFormBlackBG">
+   <property name="geometry">
+    <rect>
+     <x>41</x>
+     <y>80</y>
+     <width>831</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft Yi Baiti</family>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0, 180);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>INFORMATION </string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>false</bool>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mnameInput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>320</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Fritz</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Middle Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lnameInput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Doe</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sectionInput">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>380</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>09101883946</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Block Section</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contactInput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>21</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Contact Number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailInput">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>200</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>12-25-2002</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Email Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="addressInput">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>500</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Student</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Address</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="regPassInput">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>440</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Single</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="regSaveBtn">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>500</y>
+     <width>113</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(153, 51, 51);
+border: 0; 
+border-radius: 4px;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="genderChoice">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>440</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Male</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>190</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ID Number:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="courseChoice">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>260</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Pajac, Lapu-Lapu City</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="yearChoice">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>320</y>
+     <width>221</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>johndoe@gmail.com</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>First Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>310</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Middle Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>370</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Last Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_5">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>430</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Gender:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_6">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>250</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Home Address:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>310</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Email Address:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_8">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>370</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Contact Number:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_9">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>490</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Age:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_10">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>190</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Birthdate:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_11">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>490</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Work Status:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_12">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>430</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Civil Status:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_13">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>190</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Guardian's First Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_14">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>250</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Guardian's Middle Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_15">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>310</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Guardian's Last Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="regPassInput_2">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>203</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Henry</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="regPassInput_3">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>264</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Fritz</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="regPassInput_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>324</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 5px;
+border: none; 
+border-bottom: 2px solid black;
+background-color: transparent;</string>
+   </property>
+   <property name="text">
+    <string>Doe</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_16">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Student's Information</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="idLable_17">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>150</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Guardian's Information</string>
+   </property>
+  </widget>
+  <zorder>ctuBG</zorder>
+  <zorder>ctuBG_2</zorder>
+  <zorder>seethroughBlackBG</zorder>
+  <zorder>idnumInput</zorder>
+  <zorder>fnameInput</zorder>
+  <zorder>regFormBlackBG</zorder>
+  <zorder>mnameInput</zorder>
+  <zorder>lnameInput</zorder>
+  <zorder>sectionInput</zorder>
+  <zorder>contactInput</zorder>
+  <zorder>emailInput</zorder>
+  <zorder>addressInput</zorder>
+  <zorder>regPassInput</zorder>
+  <zorder>regSaveBtn</zorder>
+  <zorder>genderChoice</zorder>
+  <zorder>idLable</zorder>
+  <zorder>courseChoice</zorder>
+  <zorder>yearChoice</zorder>
+  <zorder>idLable_2</zorder>
+  <zorder>idLable_3</zorder>
+  <zorder>idLable_4</zorder>
+  <zorder>idLable_5</zorder>
+  <zorder>idLable_6</zorder>
+  <zorder>idLable_7</zorder>
+  <zorder>idLable_8</zorder>
+  <zorder>idLable_9</zorder>
+  <zorder>idLable_10</zorder>
+  <zorder>idLable_11</zorder>
+  <zorder>idLable_12</zorder>
+  <zorder>idLable_13</zorder>
+  <zorder>idLable_14</zorder>
+  <zorder>idLable_15</zorder>
+  <zorder>regPassInput_2</zorder>
+  <zorder>regPassInput_3</zorder>
+  <zorder>regPassInput_4</zorder>
+  <zorder>idLable_16</zorder>
+  <zorder>idLable_17</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
